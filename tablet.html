@@ -3,10 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablet</title>
+    <title>Destinos en México - Plum Viajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .destino {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        }
+        .destino img {
+            width: 40%;
+            height: auto;
+            object-fit: cover;
+        }
+        .detalles {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .detalles h3 {
+            color: #4CAF50;
+        }
+        .detalles p {
+            color: #555;
+        }
+        .hoteles {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hoteles li {
+            background-color: #e0e0e0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a la página del Tablet</h1>
-    <p>Este es el contenido de la página que se mostrará en la tablet.</p>
+
+<header>
+    <h1>Destinos en México - Plum Viajes</h1>
+</header>
+
+<section>
+    <h2>Elige tu próximo destino en México</h2>
+
+    <!-- Cancún -->
+    <div class="destino">
+        <img src="cancun.jpg" alt="Cancún">
+        <div class="detalles">
+            <h3>Cancún</h3>
+            <p>Disfruta de las hermosas playas de arena blanca y el mar cristalino en Cancún. Un destino ideal para el relax y la diversión.</p>
+            <h4>Hoteles recomendados:</h4>
+            <ul class="hoteles">
+                <li><strong>Hotel Azul Sensatori</strong> - Todo incluido, cerca de la playa.</li>
+                <li><strong>Riu Palace Las Americas</strong> - Hotel de lujo para adultos.</li>
+                <li><strong>Grand Oasis Palm</strong> - Perfecto para familias con actividades para todos.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Playa del Carmen -->
+    <div class="destino">
+        <img src="playa_del_carmen.jpg" alt="Playa del Carmen">
+        <div class="detalles">
+            <h3>Playa del Carmen</h3>
+            <p>Ubicado en la Riviera Maya, Playa del Carmen es conocido por sus calles llenas de vida, tiendas, restaurantes y sus cercanas ruinas mayas.</p>
+            <h4>Hoteles recomendados:</h4>
+            <ul class="hoteles">
+                <li><strong>Hotel Xcaret Mexico</strong> - Un parque eco-arqueológico con alojamiento único.</li>
+                <li><strong>Playa Palms Beach Hotel</strong> - Ideal para relajarse frente al mar.</li>
+                <li><strong>Grand Hyatt Playa del Carmen</strong> - Elegante y moderno con todo lujo de detalles.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Ciudad de México -->
+    <div class="destino">
+        <img src="cdmx.jpg" alt="Ciudad de México">
+        <div class="detalles">
+            <h3>Ciudad de México</h3>
+            <p>La capital del país es una metrópolis vibrante, llena de historia, cultura y una oferta gastronómica incomparable.</p>
+            <h4>Hoteles recomendados:</h4>
+            <ul class="hoteles">
+                <li><strong>Hotel Histórico Central</strong> - En el centro histórico, a pasos de los principales museos.</li>
+                <li><strong>Grand Fiesta Americana</strong> - Hotel moderno con vistas espectaculares.</li>
+                <li><strong>Las Alcobas</strong> - Boutique hotel de lujo con atención personalizada.</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2025 Plum Viajes | Todos los derechos reservados</p>
+</footer>
+
 </body>
 </html>
